@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: #eee;
 }
 
 html {
@@ -9,4 +10,122 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+.pic-rows{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+h1{
+  font-size: 2 em;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #333;
+  padding:15px;
+}
+
+h2{
+  font-size: 1.5 em;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #333;
+  padding:15px;
+}
+
+h3{
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+h4{
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+h6{
+  text-align: center;
+  font-size: 3em;
+  color: #333;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Lora', serif;
+  color: #333;
+  padding:15px;
+}
+
+.title-box{
+ background-image: url("header.jpg");
+}
+.fyrirsogn{
+  text-align: center;
+  padding: 2em;
+  background: top;
+  font-size: 3em;
+  color: #eee;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.fakepicture{
+  opacity: 0;
+}
+
+
+
+.pic-rows{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.content-container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+.picture-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 1em 1em 1em 1em;
+  max-width: 500px;
+  max-height: 350px;
+  background-color: #666;
+}
+
+
+
+.text-box{
+  margin: 1em 1em 1em 1em;
+}
+
+.content-box{
+  height: fit-content;
+}
+
+.card{
+  margin:1em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #333;
 }

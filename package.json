@@ -1,0 +1,29 @@
+{
+  "name": "vef2-2018-v1",
+  "version": "1.0.0",
+  "description": "Útfæra skal Express vefþjón sem birtir yfirlit yfir greinar úr möppu á disk og möguleika á að lesa hverja grein.",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "meta-marked": "^0.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "nodemon": "^1.14.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjarkivk/Greinar.git"
+  },
+  "author": "Bjarki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjarkivk/Greinar/issues"
+  },
+  "homepage": "https://github.com/bjarkivk/Greinar#readme"
+}

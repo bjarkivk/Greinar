@@ -1,0 +1,61 @@
+<%- include('header') -%>
+
+
+
+
+  <div class="pic-rows">
+
+    <a href= <%= batman_slug %> class="card" >
+      <div class="content-box">
+        <div class="picture-box">
+          <!--<img src= "./img/grey.jpg"  alt="batman picture" class="picture"> -->
+          <img src= <%= lorem_image %>  alt="lorem picture" class="fakepicture">
+        </div>
+        <div class="text-box">
+          <h3><%= batman_title %></h3>
+          <h4><%= batman_date %></h4>
+        </div>
+      </div>
+    </a>
+
+    <a href= <%= lorem_slug %> class="card">
+      <div class="content-box">
+        <div class="picture-box">
+          <img src= <%= lorem_image %>  alt="lorem picture" class="picture">
+        </div>
+        <div class="text-box">
+          <h3><%= lorem_title %></h3>
+          <h4><%= lorem_date %></h4>
+        </div>
+      </div>
+    </a>
+
+    <a href= <%= corporate_slug %> class="card">
+      <div class="content-box">
+        <div class="picture-box">
+          <img src= <%= corporate_image %>  alt="corporate picture" class="picture">
+        </div>
+        <div class="text-box">
+          <h3><%= corporate_title %></h3>
+          <h4><%= corporate_date %></h4>
+        </div>
+      </div>
+    </a>
+
+    <a href= <%= deloren_slug %> class="card">
+      <div class="content-box">
+        <div class="picture-box">
+          <!--<img src= "./img/grey.jpg"  alt="deloren picture" class="picture"-->
+          <img src= <%= lorem_image %>  alt="lorem picture" class="fakepicture">
+        </div>
+        <div class="text-box">
+          <h3><%= deloren_title %></h3>
+          <h4><%= deloren_date %></h4>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+
+<%- include('footer') -%>
